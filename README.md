@@ -47,3 +47,15 @@
 - .then() method takes two possible parameters: resolve and reject
 - .all()
 - Promise.all(): will not be triggered until all the Promises in the array have been triggered
+
+### Generators
+
+- run to completion before any other funtion run
+- it's possible to stop the processing and later it can resume from there and continue
+- syntax declaration: function \*example()
+
+`function *numbers() { console.log('The magic has started'); yield 1; yield 2; yield 3; }const iterator = numbers();console.log(iterator.next()); // {value: 1, done: false} console.log(iterator.next()); // {value: 2, done: false} console.log(iterator.next()); // {value: 3, done: false} console.log(iterator.next()); // {value: undefine, done: true}`
+
+### Sets
+
+- collection that each item must bem unique
