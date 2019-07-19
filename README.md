@@ -9,3 +9,4 @@
 - Default parameters
 - Rest parameters: the problem is how function arguments can be accessed. You can access it as an array, but its not exactly one. All the parameters are set to the arguments, but you can't differentiate them.
 - Spread parameters: the inverse of the rest parameter, you can pass a parameter that will be assigned to the parameters of the function
+- Template string comes to make our lifes easier, multi line strings declarations making your code much more readable and concise
