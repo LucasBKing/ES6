@@ -31,3 +31,11 @@
 - " to skip arguments
 
 ### Object/Functions Shorthands
+
+### Modules
+
+- CommonJs and Asynchronous Module Definition(AMD) (community)
+- ECMAScript 6: start organizing the code better, make reusable components and decrease the complexity of each part of our work
+- Functions and variables won't be visible unless explicitly export them and import them
+- import more than one module inside { }
+- https://stackoverflow.com/questions/52425643/node-js-export-a-normal-function-or-arrow-function
