@@ -29,3 +29,5 @@
 - Destructuring: less code accessing objects
 - Destructuring directly in functions
 - " to skip arguments
+
+### Object/Functions Shorthands
