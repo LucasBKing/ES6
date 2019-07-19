@@ -39,3 +39,11 @@
 - Functions and variables won't be visible unless explicitly export them and import them
 - import more than one module inside { }
 - https://stackoverflow.com/questions/52425643/node-js-export-a-normal-function-or-arrow-function
+
+### Promises
+
+- no more callback hell (a lot of levels of nested identation to control access to a function while consuming async content)
+- promises comes to avoid it
+- .then() method takes two possible parameters: resolve and reject
+- .all()
+- Promise.all(): will not be triggered until all the Promises in the array have been triggered
