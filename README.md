@@ -5,3 +5,4 @@
 - To solve hoist behavior, use let and const.
 - let and const have block scope, var have function scope
 - const is like let but immutable (can't be changed)
+- Arrow functions
